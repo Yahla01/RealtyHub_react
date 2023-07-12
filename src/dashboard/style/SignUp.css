@@ -1,0 +1,20 @@
+.mainContainer {
+    background-image: url("C:\Users\sunep\Desktop\Capstone\realityhub\src\dashboard\assets\image\realityHub.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.signUp {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 8cm;
+    width: 8cm;
+    background-color: rgba(255, 255, 255, 0.432);
+    border-radius: 30px;
+    justify-content: center;
+    align-items: c;
+}
