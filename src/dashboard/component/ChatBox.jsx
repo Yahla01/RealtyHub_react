@@ -5,7 +5,7 @@ import UserProfileUpdate from './UserProfileUpdate';
 import TopNav from './TopNav';
 
 
-function Chatbox  () {
+function Chatbox () {
   const [messages, setMessages] = useState([]);
   const [userMessage, setUserMessage] = useState('');
 
@@ -26,12 +26,10 @@ function Chatbox  () {
   };
 
   return (
-    <div><TopNav/>
-    <br/>
-    <br/>
-    <br/>
+   
+   
     <div className="chatbox"><h1>ADMIN</h1>
-      <div className="chatbox-messages">
+      <div className="chatbox-messages">½
         {messages.map((msg, index) => (
           <div key={index} className={`message ${msg.sender}`}>
             <br/>
@@ -50,7 +48,7 @@ function Chatbox  () {
         <button onClick={handleSendMessage}>Send</button>
       </div>
     </div>
-    </div>
+  
   );
 };
 

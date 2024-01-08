@@ -4,7 +4,11 @@ import notification from "../assets/image/notification.svg"
 
 
 function Notifications () {
+    const [liked,setLiked] = useState(false)
 
+    const handleNotification = () => {
+        setLiked()
+    }
 
 
     return (

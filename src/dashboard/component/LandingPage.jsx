@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../style/SignUp.css";
 import searchButton from '../assets/image/searchButton.jpeg';
+import PersonalityTest from "./PersonalityTest.jsx";
 
 const SignUp = () => {
   const [isRegistrationOpen, setIsRegistrationOpen] = useState(false);

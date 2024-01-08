@@ -45,9 +45,7 @@ function SavedApartments() {
     };
 
     return (
-        <div>
-            <TopNav/>
-           <SideBar/>
+        <div>no apartment saved
 
         </div>
     )
